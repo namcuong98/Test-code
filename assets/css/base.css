@@ -13,10 +13,26 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
+    background-color: #1f1d2b;
 }
 
 .grid {
     width: 1280px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__row-column {
+    padding-right: 24px;
+    width: 25%;
+}
+
+
+.btn {
+    
 }
