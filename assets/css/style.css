@@ -39,7 +39,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.toolbar__item-small:hover {
+    opacity: 0.8;
 }
 
 .toolbar__item-small-link {
@@ -75,6 +78,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.toolbar__item-last:hover {
+    opacity: 0.8;
 }
 
 .toolbar__item-last-connect {
@@ -119,12 +127,6 @@
 }
 
 .conten1-item--discover {
-    /* font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.75;
-    text-transform: uppercase;
-    min-width: 64px;
-    padding: 6px 16px; */
     width: 220px;
     height: 60px;
     text-decoration: none;
@@ -133,9 +135,12 @@
     background: (103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%);
     background-image: linear-gradient(103.91deg, rgb(155, 81, 224) 21.01%, rgba(48, 129, 237, 0.8) 100%);
     padding: 0;
-    /* border-width: 2; */
     cursor: pointer;
     border: 1px solid var(--primary-color);
+}
+
+.conten1-item--discover:hover {
+    opacity: 0.8;
 }
 
 .conten1-item--discover p{
@@ -155,6 +160,11 @@
     border: 1px solid #d7d7d7;
     border-radius: 16px;
     padding: 0;
+    cursor: pointer;
+}
+
+.conten1-item--register:hover {
+    opacity: 0.8;
 }
 
 .conten1-item--register p {
@@ -366,7 +376,13 @@
     border: 0;
 }
 
+.conten4__item-btn:hover {
+    opacity: 0.8;
+    background-color: #2c2a39;
+}
+
 .conten4__item-btn svg {
+    margin-left: 6px;
     width: 1.2em;
     height: 1.2em;
 }
@@ -384,7 +400,7 @@
     justify-content: center;
     align-items: center;
     width: 166px;
-    height: 56px;
+    height: 50px;
     padding: 8px 16px;
     border-radius: 4px;
     margin-left: 16px;
@@ -393,6 +409,10 @@
     background-image: linear-gradient(103.91deg, rgb(155, 81, 224) 21.01%, rgba(48, 129, 237, 0.8) 100%);
     border: 0;
     cursor: pointer;
+}
+
+.conten4__item-btn--last:hover {
+    opacity: 0.8;
 }
 
 .conten4__item-btn--last p {
@@ -413,6 +433,10 @@
     padding-top: 80px;
 }
 
+.swap {
+    padding-top: 100px;
+}
+
 .conten4--btn {
     margin-top: 80px;
     display: flex;
@@ -427,6 +451,11 @@
     background-color: var(--primary-color);
     color: #d7d7d7;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.conten4--btn button:hover {
+    opacity: 0.8;
 }
 
 /* FOOTER */
