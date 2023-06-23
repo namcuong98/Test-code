@@ -177,7 +177,12 @@
 
 .conten1__list-info {
     padding: 24px;
+    width: 50%;
     background-color: #222537;
+}
+
+.conten1__list-info--img {
+    width: 100%;
 }
 
 .conten1__item-info{
