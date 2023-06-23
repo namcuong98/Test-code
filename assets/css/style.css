@@ -56,6 +56,11 @@
     width: 100%;
     top: 24px;
     left: -1px;
+    display: none;
+}
+
+.toolbar__item-small-link:hover span {
+    display: inline-block;
 }
 
 .toolbar__item-small {
