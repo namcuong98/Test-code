@@ -16,6 +16,10 @@ html {
     background-color: #1f1d2b;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .grid {
     width: 1280px;
     max-width: 100%;
