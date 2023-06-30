@@ -20,6 +20,7 @@ header, footer {
   flex-direction: row;
   gap: 20px;
   list-style-type: none;
+  overflow: hidden;
 }
 
 .menus__item-link {
@@ -46,6 +47,7 @@ header, footer {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .logo {
   font-size: 32px;
   font-family: Poppins;
@@ -93,12 +95,26 @@ button {
   }
   .btn__signin {
     display: none;
+  }  .end-heading {
+    display: none;
   }
+}
+
+/* @media only screen and (max-width: 600px) {
+
+  }
+} */
+
+
+
+.end {
+  width: 100%;
 }
 
 .end-heading {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .end-heading p {
@@ -109,9 +125,14 @@ button {
   margin: 0;
 }
 
+.end__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .end__menu-list {
   display: flex;
-  gap: 74px;
+  /* gap: 74px; */
   margin: 0 0 0 120px;
   padding: 0;
   justify-content: space-between;
@@ -121,6 +142,7 @@ button {
   list-style: none;
   font-size: 40px;
   font-weight: 400;
+  padding-left: 40px;
 }
 
 .end__menu-item--link {
@@ -129,7 +151,12 @@ button {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
+  margin-top: 32px;
 }
+
+/* .end__menu-item--link + .end__menu-item--link {
+  margin-top: 32px;
+} */
 
 .end__divide {
   margin: 50px 0;
