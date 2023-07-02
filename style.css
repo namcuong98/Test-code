@@ -111,8 +111,7 @@ button {
 }
 
 .end-heading p {
-  display: flex;
-  width: 455.111px;
+  max-width: 455.111px;
   font-size: 40px;
   font-weight: 500;
   margin: 0;
@@ -136,6 +135,7 @@ button {
   font-size: 40px;
   font-weight: 400;
   padding-left: 40px;
+  margin: 0;
 }
 
 .end__menu-item--link {
@@ -193,5 +193,8 @@ button {
   .end__menu-list {
     display: block;
     margin: 0;
+  }
+  .end__info {
+    display: block;
   }
 }
