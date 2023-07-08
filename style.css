@@ -5,13 +5,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
+header, footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 32px 80px;
   background: #1f1d2b;
+  color: white;
 }
 
 .menus {
@@ -19,6 +20,7 @@ header {
   flex-direction: row;
   gap: 20px;
   list-style-type: none;
+  overflow: hidden;
 }
 
 .menus__item-link {
@@ -45,6 +47,7 @@ header {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .logo {
   font-size: 32px;
   font-family: Poppins;
@@ -58,14 +61,17 @@ header {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .group {
   display: flex;
   gap: 32px;
 }
+
 button {
   border: none;
   background: none;
 }
+
 .sign {
   color: #bcbcbc;
   font-size: 12px;
@@ -82,6 +88,7 @@ button {
   width: 126px;
   height: 45px;
 }
+
 @media only screen and (max-width: 600px) {
   .menus {
     display: none;
@@ -91,5 +98,244 @@ button {
   }
   .btn__signin {
     display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER */
+
+.container {
+  padding: 32px 80px;
+  background: #1f1d2b;
+  color: white;
+}
+
+.LandingPage {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.LandingPage {
+  display: inline-flex;
+  width: 100%;
+}
+
+.LandingPage__info-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.LandingPage__info-bid {
+  color: #fff;
+  padding: 2px 24px;
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card {
+  margin-top: 160px;
+  }
+
+.card__heading {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.card__comment {
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.card__icon-item {
+  width: 150px;
+  text-align: center;
+}
+
+.card__icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 24px 0;
+  width: 100%;
+  height: 138px;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: -3.013333320617676px 3.013333320617676px 3.013333320617676px 0px rgba(255, 255, 255, 0.39) inset, 2.009999990463257px -2.009999990463257px 20px 0px rgba(214, 214, 214, 0.17) inset;
+  backdrop-filter: blur(37.21466827392578px)
+}
+
+.card__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card__icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.end {
+  width: 100%;
+}
+
+.end-heading {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.end-heading p {
+  max-width: 455.111px;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.end__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.end__menu-list {
+  display: flex;
+  /* gap: 74px; */
+  margin: 0 0 0 120px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.end__menu-item {
+  list-style: none;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.end__menu-item--link {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.end__menu-item--link:hover {
+  opacity: 0.7;
+}
+
+/* .end__menu-item--link + .end__menu-item--link {
+  margin-top: 32px;
+} */
+
+.end__divide {
+  margin: 50px 0;
+}
+
+.end__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end__info-app {
+  display: flex;
+  gap: 24px;
+}
+
+.end__info-app-img {
+  width: 32px;
+  height: 32px;
+}
+
+.end__info--source {
+  color: #828282;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .end-heading {
+    display: block;
+  }
+  .end__menu-item {
+    display: block;
+    padding: 60px 0 0 0;
+  }
+  .end__menu-list {
+    display: block;
+    margin: 0;
+  }
+  .end__info {
+    display: block;
   }
 }
